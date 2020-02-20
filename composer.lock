@@ -1,0 +1,209 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "cebb780a022c71d9552c696dd4ce3cb4",
+    "packages": [
+        {
+            "name": "facebook/hack-http-request-response-interfaces",
+            "version": "v0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hhvm/hack-http-request-response-interfaces.git",
+                "reference": "c91044a1ca1c699f02914eb40a4a484eb16ca64c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hhvm/hack-http-request-response-interfaces/zipball/c91044a1ca1c699f02914eb40a4a484eb16ca64c",
+                "reference": "c91044a1ca1c699f02914eb40a4a484eb16ca64c",
+                "shasum": ""
+            },
+            "require": {
+                "hhvm/hsl-experimental": "^4.0"
+            },
+            "require-dev": {
+                "hhvm/hhast": "^4.0"
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/facebookexperimental/hack-http-request-response-interfaces",
+            "time": "2019-02-13T00:10:02+00:00"
+        },
+        {
+            "name": "facebook/hack-router",
+            "version": "v0.19.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hhvm/hack-router.git",
+                "reference": "cb83d4026c4f8c8fb877aa8ba40465a99b624534"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hhvm/hack-router/zipball/cb83d4026c4f8c8fb877aa8ba40465a99b624534",
+                "reference": "cb83d4026c4f8c8fb877aa8ba40465a99b624534",
+                "shasum": ""
+            },
+            "require": {
+                "facebook/hack-http-request-response-interfaces": "^0.2",
+                "hhvm": "^4.25",
+                "hhvm/hsl": "^4.0"
+            },
+            "require-dev": {
+                "facebook/fbexpect": "^2.0",
+                "hhvm/hacktest": "^2.0",
+                "hhvm/hhast": "^4.0",
+                "hhvm/hhvm-autoload": "^2.0.8",
+                "usox/hackttp": "^0.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "URI routing for Hack",
+            "homepage": "https://github.com/hhvm/hack-router",
+            "keywords": [
+                "hack",
+                "hhvm",
+                "router",
+                "routing"
+            ],
+            "time": "2019-11-22T17:00:45+00:00"
+        },
+        {
+            "name": "hhvm/hhvm-autoload",
+            "version": "v3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hhvm/hhvm-autoload.git",
+                "reference": "645a83cb9a0ba97084a753a20bebfe4e9442f75c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hhvm/hhvm-autoload/zipball/645a83cb9a0ba97084a753a20bebfe4e9442f75c",
+                "reference": "645a83cb9a0ba97084a753a20bebfe4e9442f75c",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0",
+                "hhvm": "^4.25",
+                "hhvm/hsl": "^4.0"
+            },
+            "replace": {
+                "facebook/hhvm-autoload": "1.*"
+            },
+            "require-dev": {
+                "facebook/fbexpect": "^2.1",
+                "hhvm/hacktest": "^2.0"
+            },
+            "bin": [
+                "bin/hh-autoload",
+                "bin/hh-autoload.hack"
+            ],
+            "type": "composer-plugin",
+            "extra": {
+                "class": [
+                    "Facebook\\AutoloadMap\\ComposerPlugin"
+                ],
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "classmap": [
+                    "ComposerPlugin.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "time": "2020-02-07T21:25:25+00:00"
+        },
+        {
+            "name": "hhvm/hsl",
+            "version": "v4.40.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hhvm/hsl.git",
+                "reference": "b14a430062ad95c378765899f955457f3454f2f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hhvm/hsl/zipball/b14a430062ad95c378765899f955457f3454f2f9",
+                "reference": "b14a430062ad95c378765899f955457f3454f2f9",
+                "shasum": ""
+            },
+            "require": {
+                "hhvm": "^4.25"
+            },
+            "require-dev": {
+                "facebook/fbexpect": "^2.5.1",
+                "hhvm/hacktest": "^1.0|^2.0",
+                "hhvm/hhvm-autoload": "^2.0",
+                "hhvm/hsl-experimental": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The Hack Standard Library",
+            "time": "2020-01-08T23:12:08+00:00"
+        },
+        {
+            "name": "hhvm/hsl-experimental",
+            "version": "v4.37.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hhvm/hsl-experimental.git",
+                "reference": "cdf9f1e6563304eac8b473b7e7492573a06f7dda"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hhvm/hsl-experimental/zipball/cdf9f1e6563304eac8b473b7e7492573a06f7dda",
+                "reference": "cdf9f1e6563304eac8b473b7e7492573a06f7dda",
+                "shasum": ""
+            },
+            "require": {
+                "hhvm": "^4.25",
+                "hhvm/hsl": "^4.15"
+            },
+            "require-dev": {
+                "facebook/fbexpect": "^2.7.0",
+                "hhvm/hacktest": "^2.0",
+                "hhvm/hhvm-autoload": "^2.0|^3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "The Hack Standard Library - Experimental Additions",
+            "time": "2020-02-07T23:39:43+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

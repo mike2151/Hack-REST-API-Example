@@ -1,0 +1,7 @@
+{
+    "require": {
+        "hhvm/hsl": "^4.40",
+        "hhvm/hhvm-autoload": "^3.0",
+        "facebook/hack-router": "^0.19.5"
+    }
+}
